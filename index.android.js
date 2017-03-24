@@ -5,23 +5,13 @@
  */
 
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import {AppRegistry} from 'react-native';
 
-export default class MyRNProject extends Component {
-  render() {
-    return (
-      <View>
-          <Text>Hello World!</Text>
-          <Text>我是程序员杜鹏程</Text>
-      </View>
-      
-    );
-  }
-}
 
-AppRegistry.registerComponent('MyRNProject', () => MyRNProject);
+import Launcher from "./js/Launcher";
+import FlexboxDemo from "./js/control/FlexboxDemo";
+import ViewAndTextDemo from "./js/control/ViewAndTextDemo";
+
+
+// AppRegistry.registerComponent('MyRNProject', () => FlexboxDemo);
+AppRegistry.registerComponent('MyRNProject', () => ViewAndTextDemo);
