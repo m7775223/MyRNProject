@@ -6,7 +6,7 @@ import React, {Component} from "react";
 import {AppRegistry,View} from "react-native";
 
 
-export default class oneDemo extends Component{
+export default class OneDemo extends Component{
     render(){
         return(
             //固定尺寸
