@@ -44,7 +44,7 @@ export default class ThreeDemo extends Component{
                     style={styles.textinput}
                     placeholder='密码'
                     numberOfLines={1}
-                    autoFocus={true}
+                    autoFocus={false}
                     underlineColorAndroid={'#e1e1e1'}
                     password="true"
                 />
