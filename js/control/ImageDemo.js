@@ -33,7 +33,7 @@ export default class FourDemo extends Component{
                 <View style={styles.three_image_view}>
                         <View style={styles.vertical_view}>
                             <Image style={{width:50,height:50}}
-                                   source={{uri:'https://facebook.github.io/react/img/logo_og.png'}}/>
+                                   source={require('../../img/dongtai.png')}/>
                             <Text style={styles.top_text}>
                                 好友动态
                             </Text>
@@ -43,7 +43,7 @@ export default class FourDemo extends Component{
                         <View style={styles.vertical_view}>
                             <Image
                                 style={{width:50,height:50}}
-                                source={{uri:'https://facebook.github.io/react/img/logo_og.png'}}/>
+                                source={require('../../img/weizhi.png')}/>
                             <Text style={styles.top_text}>
                                 附近
                             </Text>
@@ -51,7 +51,7 @@ export default class FourDemo extends Component{
                         <View style={styles.vertical_view}>
                             <Image
                                 style={{width:50,height:50}}
-                                source={{uri:'https://facebook.github.io/react/img/logo_og.png'}}/>
+                                source={require('../../img/buluo.png')}/>
                             <Text style={styles.top_text}>
                                 兴趣部落
                             </Text>
@@ -73,8 +73,8 @@ export default class FourDemo extends Component{
                                 <Text style={styles.rectangle_text}>
                                     羽毛球
                                 </Text>
-                                {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
                             </View>
+                            <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                         </View>
                     </TouchableHighlight>
 
@@ -93,7 +93,7 @@ export default class FourDemo extends Component{
                                     火车票
                                 </Text>
                             </View>
-                                {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
+                                <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                         </View>
                     </TouchableNativeFeedback>
                 <View style={styles.rectangle_view}>
@@ -104,9 +104,9 @@ export default class FourDemo extends Component{
                         <Text style={styles.rectangle_text}>
                             飞机票
                         </Text>
-                        {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                    </View>
 
+                    </View>
+                    <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                 </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -116,9 +116,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 汽车票
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -128,9 +128,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 轮船票
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -140,9 +140,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 高铁票
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -152,9 +152,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 旅游票
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -164,9 +164,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 出入证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -176,9 +176,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 身份证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -188,9 +188,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 学生证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -200,9 +200,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 房产证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -212,9 +212,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 驾驶证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -224,9 +224,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 行驶证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                     <View style={styles.rectangle_view}>
                         <View style={{flexDirection:'row',alignItems:'center'}}>
@@ -236,9 +236,9 @@ export default class FourDemo extends Component{
                             <Text style={styles.rectangle_text}>
                                 结婚证
                             </Text>
-                            {/*<Image source={require('./img/ppe.png')} style={{alignSelf:'center',width:20,height:20}}/>*/}
-                        </View>
 
+                        </View>
+                        <Image source={require('../../img/go.png')} style={{alignSelf:'center',width:20,height:20}}/>
                     </View>
                 </ScrollView>
 
